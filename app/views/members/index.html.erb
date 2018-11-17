@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>All Members</h1>
+    <ol>
+        <% @members.each do |member| %>
+        <li><%= member.name %> | <%= member.email %></li>
+        <% end %>
+    </ol>
+</div>
