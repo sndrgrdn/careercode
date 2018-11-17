@@ -12,22 +12,20 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="input-container">
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
-  <div class="field">
+  <div class="input-container">
     <%= form.label :email %>
     <%= form.text_field :email %>
   </div>
 
-  <div class="field">
-    <%= form.label :details %>
+  <div class="textarea-container">
+    <label for="member[details]">Tell something about yourself<p>(Think about personal projects, hobbies, things you're proud of)</p></label>
     <%= form.text_area :details %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+  <div class="submit"><button type="submit">Submit</button></div>
 <% end %>
