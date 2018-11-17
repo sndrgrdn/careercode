@@ -23,7 +23,13 @@
   </div>
 
   <div class="textarea-container">
-    <label for="member[details]">Tell something about yourself<p>(Think about personal projects, hobbies, things you're proud of)</p></label>
+    <label for="member[details]">
+        <% if member.member_type == 'candidate' %>
+            Tell something about yourself<p>(Think about personal projects, hobbies, things you're proud of)</p>
+        <% else %>
+            Tell something you like developers to know about<p>(Projects, Culture, you name it)</p>
+        <% end %>
+    </label>
     <%= form.text_area :details %>
   </div>
 

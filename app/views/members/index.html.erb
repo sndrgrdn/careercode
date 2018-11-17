@@ -2,7 +2,7 @@
     <h1>All Members</h1>
     <ol>
         <% @members.each do |member| %>
-        <li><%= member.name %> | <%= member.email %></li>
+        <li><%= member.name %> | <%= member.email %> (<%= member.member_type %>)</li>
         <% end %>
     </ol>
 </div>
