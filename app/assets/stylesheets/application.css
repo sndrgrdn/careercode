@@ -49,11 +49,11 @@ p {
   margin: 2.4rem 0;
 }
 
-.container {
+/* .container {
   width: 90vw;
   max-width: 720px;
   margin: 0 auto;
-}
+} */
 
 .button-container {
   display: flex;
@@ -107,23 +107,23 @@ p {
 #features {
   padding-top: 25px;
   margin-bottom: 25px;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
-  margin-right: -15px;
+  margin-right: -15px; */
 }
 
 #features p {
   margin: 10px 0;
 }
-
+/* 
 #features > div {
   margin-left: 15px;
   margin-right: 15px;
   flex-basis: calc(33% - 30px);
   flex-grow: 1;
   flex-shrink: 0;
-}
+} */
 
 form {
   display: flex;
