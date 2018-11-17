@@ -1,4 +1,10 @@
 class MembersController < ApplicationController
+  http_basic_authenticate_with name: ENV['ADMIN_USER'], password: ENV['ADMIN_PASSWORD'], only: :index
+
+  def index
+    @members = Member.all
+  end
+
   def candidate
     @member = Member.new(member_type: 'candidate')
   end
