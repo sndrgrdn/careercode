@@ -14,12 +14,12 @@
 
   <div class="input-container">
     <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, required: true %>
   </div>
 
   <div class="input-container">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email, required: true %>
   </div>
 
   <div class="textarea-container">
@@ -31,6 +31,11 @@
         <% end %>
     </label>
     <%= form.text_area :details %>
+  </div>
+
+  <div class="gdpr">
+      <%= form.check_box :gdpr, required: true %>
+      <label for="member_gdpr">I accept that my information can be used for marketing purposes.</label>
   </div>
 
   <div class="submit"><button type="submit">Submit</button></div>
