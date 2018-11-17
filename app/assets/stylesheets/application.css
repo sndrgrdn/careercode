@@ -194,7 +194,7 @@ label p {
 
 input:focus, textarea:focus {
   box-shadow:
-    inset 0 0 0 1px #28bbff,
+    inset 0 0 0 1px #17afb6,
     inset 0 2px 2px rgba(0, 0, 0, .08),
     inset 0 1px 1px rgba(0, 0, 0, .08);
 }
@@ -240,6 +240,10 @@ button {
   flex-basis: 100%;
 }
 
+.gdpr label {
+  margin-left: 8px;
+}
+
 .hero {
   background: #17afb6;
   color: white;
@@ -249,4 +253,8 @@ button {
 #faq {
   background: white;
   padding: 30px 0;
+}
+
+h1 {
+  margin-top: 50px;
 }
