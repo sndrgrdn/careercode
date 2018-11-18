@@ -286,3 +286,13 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
