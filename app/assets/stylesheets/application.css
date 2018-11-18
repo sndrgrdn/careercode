@@ -273,8 +273,9 @@ footer {
   justify-content: center;
 }
 
-.tagline {
+.payoff {
   font-size: 4.4rem;
   line-height: 1;
   font-weight: 600;
+  text-align: center;
 }
