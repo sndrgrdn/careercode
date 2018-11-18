@@ -6,5 +6,8 @@ Rails.application.routes.draw do
   get :thanks, to: 'members#thanks'
   get :members, to: 'members#index'
 
+  get :about, to: 'application#about'
+  get :faq, to: 'application#about'
+
   root 'application#home'
 end
