@@ -25,9 +25,9 @@
   <div class="textarea-container">
     <label for="member[details]">
         <% if member.member_type == 'candidate' %>
-            Tell something about yourself<p>(Think about personal projects, hobbies, things you're proud of)</p>
+            Tell us something about yourself<p>(Think about personal projects, hobbies, things you're proud of)</p>
         <% else %>
-            Tell something you like developers to know about<p>(Projects, Culture, you name it)</p>
+            Tell us something about your company<p>(Projects, company culture, foosball tables)</p>
         <% end %>
     </label>
     <%= form.text_area :details %>
